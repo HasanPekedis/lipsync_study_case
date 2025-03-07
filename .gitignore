@@ -1,3 +1,3 @@
 *.wav
 src/Wav2Lip/checkpoints/
-leafy-container-453009-a1-bc7ea0a1461f.json
+leafy-container-*.json
