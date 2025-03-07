@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "leafy-container-453009-a1",
+  "private_key_id": "bc7ea0a1461f78bee9100bdff251d1f3f9fd135c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDCCLaALY872JLw\nV9z+L93oBxlfp3pXav9vHT60Mj4tkBdk9jz5zeGMg+Qj1Fw4WG7T2orhovKcCwM5\nVZp24O+zvlwnK7HLF9u8LsmofN9Wi/0UeMOQeIpClhzWRGRJUoaByYlNE1VN4o/n\nVTmSRG9xKWivEkKNwDU1vesBGEPUSo1Ub+uPy9WwASYkLG+M3KuxRAS+RU6EyWRj\n53tI6UzcPD5557ptsHe8LQa6XXvoPhGyUlzCn4l87qI3uPSoPp2R3vZ5zQf9VGi9\nZUIXIb16jH/HuWl9rH6VZulVC8fuUkbMy2PKmOTwu2pwmG1/hPK5SFJJ0pe4myD+\ncRr3Civ5AgMBAAECggEAG0bYSQqekR4wAeOIKJ+YBW9CDOVhWHqtL/SfhPtvLD6O\nW14WUlOz+mnsH3FSCYW9BsE5NuEOVAtkR6IWFdInQFBpagRFeTSAamL1bF8pkmQZ\njtAvRdb8MMIjiaeRpZEZYZNwXspx+oH4EuAzOLGwLOtSURIzEvRLRqPNLpk3p9cY\nU38RBerj0853vHfSgfxrVw54SHh1Q97ea/8jkVtXNfyvDmTry6gsITghopeaknp4\nIAnnkLF03O1PJU8W6KppD/X8q1WzEZWqH86conles+4WqQoajXseI2X8QqpDJL+j\nLav0Cns9C1g5HEebM05qjf7LJtRwR4lbAK699zrX1QKBgQDv/cv/AcC5wchhTtHO\nwqU50xkfBgrrnwz3UIUkwUdrO2Ijk7mbPTUagcqK2jU3sIx+/OvW9b7Psxi9ngnQ\np3ewhsy10iGVB+pAcUQw+crydvibQr4MAbru4tRWGFY8qB9bMN98w6/pGYJJ2Fx4\nw84KFtrwucqc6HTnNy5Nkmm+6wKBgQDO+iCIlAw6SD4sF03uID8h965gCfTQweMn\nHLuS11r0IBAfF8Ci8D1Zk71oCyMJuViG/wjkXrryr2fMr72HNXO2Q92+6MqysZgu\nM+8mQguY0phnzwM2XzGCZq7tXAnFboYPgEUbK7hJYKY7yLPJhvU9ChcZU8z8Oxxm\n5zHyC2+vqwKBgQDGwDYoW0hDzmNniwIgrHxvVg7w7W0v00nGq82IMfU2rjhJZHcL\nRHZtHF4j/jCijTjdlhKutFgw5I6xwmc4gOiTrh9s2LhtFt/+PI+Py98yTCr5Uh3Y\nDbrFSd816fPJSialu+TqC5nsfu6yv1ddwDMrkeACCqvspGrkbYOQRJgEvwKBgQDH\niVIF+ZxUL8NoZEsn74SNrac5RT/0ZYck9MlMhjtUMPj50L9RFgQ/MHQgMuRjgoD7\nHDGpYD4gqsOKDD7Oc9SK+aB0ZR7M6POKT10V6AQgH574LRWuvFURnwazI9DzulqZ\n5RI6YIq4iumXpyTUezw/zVN5glWTMTVvayG2dBoHIwKBgQCnohXhuMgY6CHL5yKN\nXlmcxDgUHTC+HDX0ecUkRKi8TDAuGJv00Kj2ce7Fk/q/hnU5D2//O+ZUE2eM2/Uy\nzI4LOUdaP/UX+oETt2xK5HStigGQwf1fZtEfCEH9l1awyJVlmX5p0lyZYNfXMYsR\nsHYakElzD6c7lc+vk/RX3F9/bQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lipsyncproject@leafy-container-453009-a1.iam.gserviceaccount.com",
+  "client_id": "108451094238333721168",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lipsyncproject%40leafy-container-453009-a1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
