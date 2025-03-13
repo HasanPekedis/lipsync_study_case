@@ -1,3 +1,4 @@
 *.wav
 src/Wav2Lip/checkpoints/*.pth
 leafy-container-*.json
+*.mp4
