@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Lip Sync</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      .container {
+        margin-top: 50px;
+      }
+      video,
+      img {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+      }
+      textarea {
+        width: 80%;
+        height: 50px;
+        margin-top: 20px;
+      }
+      button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Real-Time Lip Sync</h1>
+      {% if guid %}
+      <video width="640" height="360" controls>
+        <source
+          src="{{ url_for('static', filename='videos/' + guid + '.mp4') }}"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      {% else %}
+      <p>No video available. Please generate one.</p>
+      {% endif %}
+
+      <br />
+      <form action="/generate" method="post">
+        <textarea
+          id="textInput"
+          name="textInput"
+          placeholder="Enter text..."
+          required
+        ></textarea
+        ><br />
+        <button type="submit">Generate</button>
+      </form>
+    </div>
+  </body>
+</html>

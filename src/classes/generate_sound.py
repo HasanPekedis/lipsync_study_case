@@ -36,5 +36,5 @@ class GenerateSound:
         with open(output_filename, "wb") as audio_file:
             audio_file.write(response.audio_content)
 
-        print(f"Türkçe kadın sesi oluşturuldu: {output_filename}")
+        print(f"Sound created.: {output_filename}")
         return response

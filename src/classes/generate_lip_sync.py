@@ -11,7 +11,7 @@ def lip_sync(audio_path, output_path):
     subprocess.run([
         "python3", "inference.py",
         "--checkpoint_path", "checkpoints/wav2lip_gan.pth",
-        "--face", "../../assets/images/model.jpg",
+        "--face", "../../static/images/model.jpg",
         "--audio", audio_path,
         "--outfile", output_path
     ])

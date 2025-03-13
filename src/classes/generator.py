@@ -1,5 +1,5 @@
-from classes.generate_sound import GenerateSound
-from classes.generate_lip_sync import lip_sync
+from .generate_sound import GenerateSound
+from .generate_lip_sync import lip_sync
 import os
 class Generator:
     def __init__(self, guid, text):
@@ -8,8 +8,8 @@ class Generator:
        
     def start(self):
 
-        sound_path = f"assets/sounds/{self.guid}.wav"
-        video_path = f"assets/videos/{self.guid}.mp4"
+        sound_path = f"static/sounds/{self.guid}.wav"
+        video_path = f"static/videos/{self.guid}.mp4"
 
 
         generate_sound = GenerateSound("leafy-container-453009-a1-a2f7e8069251.json")
