@@ -1,12 +1,12 @@
 # LipSync Study Case
 
-This repository contains a study case for a lip-syncing application based on Wav2Lip. The project synchronizes lip movements of a target face video with a given audio file.
+This repository contains a study case for a lip-syncing application based on Wav2Lip. The project synchronizes lip movements of a target face image with a given audio file.
 
 ## Features
 
-- Automatically syncs lip movements in video to match a given audio
+- Automatically syncs lip movements in image to match a given audio
 - Uses Wav2Lip GAN-based model for high-quality lip-sync generation
-- Simple and easy-to-use web interface
+- Simple web interface
 
 ## Prerequisites
 
