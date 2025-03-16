@@ -15,8 +15,7 @@
       }
       video,
       img {
-        width: 300px;
-        height: auto;
+
         border-radius: 10px;
       }
       textarea {
@@ -42,7 +41,7 @@
     <div class="container">
       <h1>Real-Time Lip Sync</h1>
       {% if guid %}
-      <video width="640" height="360" controls>
+      <video width="512" height="422" controls>
         <source
           src="{{ url_for('static', filename='videos/' + guid + '.mp4') }}"
           type="video/mp4"
