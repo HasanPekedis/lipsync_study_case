@@ -24,7 +24,7 @@ cd lipsync_study_case
 
 ### 2. Create and Activate Virtual Environment
 
-Make sure you are using **Python 3.6**.
+Make sure you are using **Python 3.7**.
 
 ```bash
 python3.7 -m venv wav2lip_env
