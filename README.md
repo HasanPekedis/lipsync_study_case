@@ -68,13 +68,22 @@ Make sure there is a leafy container `.json` key file in the **root directory** 
 
 ---
 
-## 6. Run the Application
+## 6. Run the Flask App
 
 ```bash
 python3 app.py
 ```
 
-The app will start, and you can follow the terminal output to access the interface or API (depending on how `app.py` is implemented).
+The app will start using Flask's default settings:
+
+- Host: `127.0.0.1` (localhost)
+- Port: `5000`
+
+You can access the web interface at:
+
+```
+http://127.0.0.1:5000/
+```
 
 ---
 
