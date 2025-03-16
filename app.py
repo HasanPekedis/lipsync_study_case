@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for, send_from_directory
 import uuid
 from src.classes.generator  import  Generator 
+import os
 
 app = Flask(__name__)
 
@@ -20,6 +21,10 @@ def generate():
     generator = Generator(guid, text)
     generator.start()
 
+    return redirect(url_for("video", guid=guid))
+
+@app.route("/video/<guid>")
+def video(guid):
     return render_template("/main.html", guid=guid)
 
 if __name__ == "__main__":

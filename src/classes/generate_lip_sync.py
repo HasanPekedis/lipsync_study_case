@@ -13,7 +13,8 @@ def lip_sync(audio_path, output_path):
         "--checkpoint_path", "checkpoints/wav2lip_gan.pth",
         "--face", "../../static/images/model.jpg",
         "--audio", audio_path,
-        "--outfile", output_path
+        "--outfile", output_path,
+        "--resize_factor", "1",
     ])
 
     print(f"Generated lip-synced video: {output_path}")
