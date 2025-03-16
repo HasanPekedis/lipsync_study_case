@@ -10,7 +10,7 @@ This repository contains a study case for a lip-syncing application based on Wav
 
 ## Prerequisites
 
-- Python 3.6
+- Python 3.7
 - `virtualenv` (or `venv`)
 
 ## Installation
@@ -27,7 +27,7 @@ cd lipsync_study_case
 Make sure you are using **Python 3.6**.
 
 ```bash
-python3.6 -m venv wav2lip_env
+python3.7 -m venv wav2lip_env
 source wav2lip_env/bin/activate
 ```
 
