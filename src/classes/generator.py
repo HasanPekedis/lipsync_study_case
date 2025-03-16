@@ -15,6 +15,7 @@ class Generator:
         generate_sound = GenerateSound("leafy-container-453009-a1-a2f7e8069251.json")
         
         os.makedirs(os.path.dirname(sound_path), exist_ok=True)
+        os.makedirs(os.path.dirname(video_path), exist_ok=True)
 
         generate_sound.synthesize(self.text, sound_path)
         
